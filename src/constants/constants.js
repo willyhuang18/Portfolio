@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Silicon Valley Blog',
     description: " A CMS-style blog site similar to a Wordpress site, where user can publish their blog posts and comment on other user' posts as well.",
-      image: '/images/3.jpg',
+      image: '/images/3.png',
       tags: ['MySQL', 'JavaScript','Node','Express','HandleBars'],
     source: 'https://github.com/willyhuang18/Silicon-Valley-Blog',
     visit: 'https://enigmatic-cove-14709.herokuapp.com/',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Note Taker',
     description: "A Note Taker that user can able to write and save notes, user can organize my thoughts and keep track of tasks they need to complete",
-    image: '/images/4.jpg',
+    image: '/images/4.png',
     tags: ['MySQL', 'JavaScript','Node','Express'],
     source: 'https://github.com/willyhuang18/Note-Taker',
     visit: 'https://arcane-temple-53098.herokuapp.com/',
@@ -38,9 +38,6 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2021, text: 'Started my journey', },
+  { year: 2022, text: 'Started my journey as developer', }
 ];
