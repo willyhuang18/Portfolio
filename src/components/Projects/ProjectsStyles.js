@@ -70,7 +70,7 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
+  color:#111C40;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -109,5 +109,5 @@ padding: 2rem;
 `
 export const Tag = styled.li`
 color: #4B4453;
-font-size: 1.5rem;
+font-size: 1.7rem;
 `
