@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Note Taker',
-    description: "A Note Taker that user can able to write and save notes, user can organize my thoughts and keep track of tasks they need to complete",
+    title: 'Todo List',
+    description: "This is the simple app that can keep track of user list items and able to delete them after they finish it",
     image: '/images/4.png',
-    tags: ['MySQL', 'JavaScript','Node','Express'],
-    source: 'https://github.com/willyhuang18/Note-Taker',
-    visit: 'https://arcane-temple-53098.herokuapp.com/',
+    tags: ['Mongo', 'JavaScript','Node','Express','EJS'],
+    source: 'https://github.com/willyhuang18/Todo-list',
+    visit: 'https://damp-sands-21922.herokuapp.com/',
     id: 3,
   },
 ];
