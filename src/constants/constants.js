@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Ignite',
-    description: "Maintaining a strong and healthy relationship can be a challenge when life gets busy, and as we grow and change as individuals. We created Ignite to help couples connect, communicate, and find new ways to make one another feel loved.",
+    description: "This APP is build for Maintaining a strong and healthy relationship can be a challenge when life gets busy, and as we grow and change as individuals. We created Ignite to help couples connect, communicate, and find new ways to make one another feel loved.",
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/lesliejpatino/Ignite',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Perfect Cup',
-    description:"Ingredient transparency is vital as health and wellness are more emphasized in today's society. Perfect Cup provides an informative platform for coffee lovers to create their own Perfect Cup while keeping them informed about the origin of a variety of coffee ingredients.",
+    description:"This app is build for understand that Ingredient transparency is vital as health and wellness are more emphasized in today's society. Perfect Cup provides an informative platform for coffee lovers to create their own Perfect Cup while keeping them informed about the origin of a variety of coffee ingredients.",
     image: '/images/2.png',
     tags: ['MySQL', 'JavaScript','Node','Express'],
     source: 'https://github.com/MChambersIV/Perfect-Cup',
@@ -18,12 +18,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Silicon Valley Blog',
-    description: " A CMS-style blog site similar to a Wordpress site, where user can publish their blog posts and comment on other user' posts as well.",
+    title: 'RED2.0',
+    description: "This APP's concept come from an Chinese app called 'RED' or 'xiaohongshu' , similar to instagram. Making this app to enhance my coding skill, this app not for commerce use",
       image: '/images/3.png',
-      tags: ['MySQL', 'JavaScript','Node','Express','HandleBars'],
-    source: 'https://github.com/willyhuang18/Silicon-Valley-Blog',
-    visit: 'https://enigmatic-cove-14709.herokuapp.com/',
+      tags: ['NextJS', 'TailWind','Firebase','NextAuth','Recoil'],
+    source: 'https://github.com/willyhuang18/red',
+    visit: 'https://red-eight.vercel.app/',
     id: 2,
   },
   {
@@ -39,5 +39,5 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2021, text: 'Started my journey', },
-  { year: 2022, text: 'Started my journey as developer', }
+  { year: 2022, text: 'Starting my journey as developer', }
 ];
