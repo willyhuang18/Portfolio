@@ -18,7 +18,10 @@ export const Container = styled.div`
   }
 `;
 export const Span = styled.span`
-font-size: 2rem 
+font-size: 2rem; 
+color: black;
+&:hover {
+    color: #fff;
 `;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
@@ -52,7 +55,7 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
   transition: 0.4s ease;
   &:hover {
     color: #fff;
