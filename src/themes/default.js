@@ -1,13 +1,13 @@
 export default {
   // Temp fonts
   fonts: {
-    title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    title: "Libre Baskerville, sans-serif",
+    main: "Roboto, sans-serif"
   },
   // Colors for layout
   colors: {
     primary1: "hsl(204,23.8%,95.9%)",
-    background1: "#0F1624",
+    background1: "linear-gradient(to right, #E7E7E7, #9E9D9E, #5E5772)",
     accent1: "hsl(34.9,98.6%,72.9%)",
     button: "hsl(205.1,100%,36.1%)",
     background2: "hsl(232.7,27.3%,23.7%)",

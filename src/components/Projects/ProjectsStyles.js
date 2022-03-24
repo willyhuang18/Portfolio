@@ -35,6 +35,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  color:black;
 
 `;
 
@@ -42,7 +43,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #4B4453;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -107,6 +108,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: #4B4453;
 font-size: 1.5rem;
 `

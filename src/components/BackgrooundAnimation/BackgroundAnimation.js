@@ -5,7 +5,7 @@ const BackgroundAnimation = () => (
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
-      fill="none"
+      fill="#B3AEB8"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g opacity="0.15">
@@ -245,7 +245,7 @@ const BackgroundAnimation = () => (
           gradientTransform="translate(301 301) rotate(90) scale(300)"
         >
           <stop offset="0.333333" stopColor="#FBFBFB" />
-          <stop offset="1" stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="black" stopOpacity="0" />
         </radialGradient>
         <radialGradient
           id="paint2_radial"
@@ -310,8 +310,8 @@ const BackgroundAnimation = () => (
           y2="118.996"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#F46737" />
-          <stop offset="1" stopColor="#F46737" stopOpacity="0" />
+          <stop stopColor="#171128" />
+          <stop offset="1" stopColor="#171128" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint8_linear"
