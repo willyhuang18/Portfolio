@@ -9,10 +9,10 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Perfect Cup',
+    title: 'Perfect-Cup',
     description:"This app is build for understand that Ingredient transparency is vital as health and wellness are more emphasized in today's society. Perfect Cup provides an informative platform for coffee lovers to create their own Perfect Cup while keeping them informed about the origin of a variety of coffee ingredients.",
     image: '/images/2.png',
-    tags: ['MySQL', 'JavaScript','Node','Express'],
+    tags: ['MySQL', 'JavaScript','Node','Express','Handlebars'],
     source: 'https://github.com/MChambersIV/Perfect-Cup',
     visit: 'https://powerful-wildwood-54385.herokuapp.com/',
     id: 1,
@@ -27,7 +27,7 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Todo List',
+    title: 'Todo-List',
     description: "This is the simple app that can keep track of user list items and able to delete them after they finish it",
     image: '/images/4.png',
     tags: ['Mongo', 'JavaScript','Node','Express','EJS'],
