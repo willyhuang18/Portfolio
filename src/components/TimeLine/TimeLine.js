@@ -56,6 +56,10 @@ const Timeline = () => {
             id={`carousel__item-${index}`}
             active={activeItem}
             onClick={(e) => handleClick(e, index)}
+            data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
             >
             <CarouselItemTitle>
               {item.year}

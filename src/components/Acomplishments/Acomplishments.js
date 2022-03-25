@@ -12,9 +12,11 @@ const data = [
 const Acomplishments = () => (
   <Section>
     <SectionTitle>Acomplishments</SectionTitle>
-    <Boxes>
+    <Boxes >
       {data.map((card,index)=>(
-        <Box key={index}>
+        <Box key={index} data-aos="flip-up" 
+            data-aos-duration="500"
+        >
           <BoxNum>{card.number}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>

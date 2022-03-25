@@ -12,7 +12,9 @@ const Technologies = () =>  (
     I've worked with a couple of technologies in the web development
     </SectionText>
     <List>
-      <ListItem>
+      <ListItem data-aos="zoom-out-up" 
+            data-aos-duration="500"
+        >
         <DiReact size="4rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
@@ -22,7 +24,8 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>        
       </ListItem>
-      <ListItem>
+      <ListItem data-aos="zoom-out-down" 
+            data-aos-duration="500">
         <DiFirebase size="4rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>

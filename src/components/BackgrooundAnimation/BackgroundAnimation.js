@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BackgroundAnimation = () => (
-  <div>
+  <div data-aos="zoom-out-down" data-aos-duration="3000">
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
