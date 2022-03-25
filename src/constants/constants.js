@@ -41,3 +41,5 @@ export const TimeLineData = [
   { year: 2021, text: 'Started my journey', },
   { year: 2022, text: 'Starting my journey as developer', }
 ];
+
+export const Image = '/public/images/profile.png';
