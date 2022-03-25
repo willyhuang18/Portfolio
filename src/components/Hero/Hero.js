@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
@@ -11,9 +10,9 @@ const Hero = (props) => (
         Welcome to <br/> Willy's Portfolio
       </SectionTitle>
       <SectionText>
-        I am Full-Stack Developer
+      Full Stack Web Developer with a background in Behavioral Science and life-long dedication to learning. <br />
+      Effective at combining creativity and problem solving to develop user-friendly applications.
       </SectionText>
-      <Button onClick={() => window.location="https://github.com/willyhuang18"}>Learn More</Button>
     </LeftSection>
   </Section>
 );
