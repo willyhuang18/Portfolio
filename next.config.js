@@ -1,6 +1,7 @@
 // /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-    source: '/public/images/profile.png',
+    loader: 'imgix',
+    path: '',
   },
 };
