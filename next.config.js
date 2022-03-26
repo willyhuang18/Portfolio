@@ -1,4 +1,6 @@
 // /** @type {import('next').NextConfig} */
 module.exports = {
-  basePath: '/',
+  images: {
+    source: '/public/images/profile.png',
+  },
 };
