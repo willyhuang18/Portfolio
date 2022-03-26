@@ -4,7 +4,8 @@ import { LeftSection } from './HeroStyles';
 import Image from 'next/image'
 
 
-const Hero = (props) => (
+
+const Hero = () => (
   <Section row nopadding data-aos="fade-up"
   data-aos-easing="linear"
   data-aos-duration="1500">
@@ -16,9 +17,11 @@ const Hero = (props) => (
       Full Stack Web Developer with a background in Behavioral Science and life-long dedication to learning. <br />
       Effective at combining creativity and problem solving to develop user-friendly applications.
       </SectionText>
-      <Image src="/images/profile.png" 
-      width={400}
-      height={450}/>
+      <Image 
+      src='/images/profile.png' 
+      alt='profile'
+      width='400'
+      height='450'/>
     </LeftSection>
   </Section>
 );
