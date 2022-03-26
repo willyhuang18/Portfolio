@@ -8,6 +8,14 @@
     "start": "next start -p $PORT",
     "heroku-postbuild": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willyhuang18/Portfolio.git"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": "16.13.2"
+  },
   "dependencies": {
     "aos": "^2.3.4",
     "next": "10.2.3",
