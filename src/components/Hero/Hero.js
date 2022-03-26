@@ -17,8 +17,8 @@ const Hero = (props) => (
       Effective at combining creativity and problem solving to develop user-friendly applications.
       </SectionText>
       <Image src="/images/profile.png" 
-      width="400"
-      height="450"/>
+      width={400}
+      height={450}/>
     </LeftSection>
   </Section>
 );
